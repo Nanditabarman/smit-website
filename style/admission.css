@@ -1,0 +1,117 @@
+
+  
+.container1 {
+    max-width: 1000px;
+    margin: 50px auto;
+    /*background-color: #fff;*/
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background:linear-gradient(to right, #3b5053, #485f6884);
+  }
+  
+  
+  
+  .course-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #140c0c;
+    color:#000000;
+  }
+  
+  .course, .qualification, .procedure {
+    flex-basis: 30%;
+    margin: 10px;
+    font-weight: bolder;
+    color:white;
+  }
+  
+  .stylish {
+    background:linear-gradient(to right, #2e495c, #2c3e50); /* Linear gradient background */
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+    margin-top: 10px; /* Add margin to separate sections */
+  }
+  
+  @media (max-width: 1200px) {
+    .course-section {
+        flex-direction: row;
+        align-items:center;
+    }
+  
+    .course, .qualification, .procedure {
+        flex-basis: 100%;
+    }
+    .course-section.stylish {
+      display: flex;
+      flex-direction: row;
+     
+    }
+    .course-section.stylish > div {
+      margin-bottom: 10px;
+    }
+    .course-section.stylish .course,.course-section.stylish .qualification,
+      .course-section.stylish .procedure {
+          font-size: 11px; /* Adjust the font size as needed */
+      
+          
+      }
+  }
+
+  .gallery-section1{
+    background:linear-gradient(to right, #dce4ea, #f5f6f8);
+  }
+  .qualification,.procedure{
+    font-style: italic;
+  }
+  @media screen and (max-width: 768px) {
+    .animate-character {
+      text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #ff8c00 100%
+      );
+      background-size: 30% auto;
+      background-clip: text;
+      color: #fff;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 700;
+      padding-top: 5px; /* Adjust the padding as needed */
+      border: 2px solid #fff; /* Add a border with your desired style */
+    }
+    .modal-content{
+      width:85% !important;
+    }
+  }
+  .title1{
+    color:orange;
+  }
+ .overview-section1{
+    background-image:url('../dept-images/sikkim_manipal.jpg');
+    background-size:cover;
+  .breadcrumb-about1{
+    background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 0vh;
+  padding: 230px 0 190px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .container py-5{
+    background-image:url('../dept-images/sikkim_manipal.jpg');
+  }
+  

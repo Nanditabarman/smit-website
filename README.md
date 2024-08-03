@@ -1,1 +1,3 @@
-# smit-website
+# SMIT website
+
+SMIT website
